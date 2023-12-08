@@ -15,7 +15,13 @@ This repository contains the Trading Project. Follow the steps below to set up t
    ```bash
    mkdir TradingProject && cd TradingProject/
    git clone https://github.com/rushikesh-shinde-pyd/TradingProject.git .
+   ```
+2. Create and activate a virtual environment (optional but recommended):
+   ```bash
    virtualenv -p python3.9 venv
    source venv/bin/activate
+   ```
+3. Run the setup script:
+   ```bash
    sh setup.sh
    ```
